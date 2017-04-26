@@ -1,0 +1,458 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="858cc53ca4564c7ebbfe82e66b8a17f4" Name="Diagram1">
+        <EntityTypeShape EntityType="LoyaltyDBV2_structModel.Announcement" Width="1.5" PointX="22.75" PointY="3.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="LoyaltyDBV2_structModel.Attribute" Width="1.5" PointX="6" PointY="75.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="LoyaltyDBV2_structModel.AuditLog" Width="1.5" PointX="9.75" PointY="23.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="LoyaltyDBV2_structModel.Banner" Width="1.5" PointX="30.75" PointY="33.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="LoyaltyDBV2_structModel.CardMaster" Width="1.5" PointX="17.75" PointY="18.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="LoyaltyDBV2_structModel.Category" Width="1.5" PointX="30.75" PointY="29" IsExpanded="true" />
+        <EntityTypeShape EntityType="LoyaltyDBV2_structModel.ChangeCardReason" Width="1.5" PointX="0.75" PointY="3.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="LoyaltyDBV2_structModel.Coupon" Width="1.5" PointX="31" PointY="10.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="LoyaltyDBV2_structModel.Currency" Width="1.5" PointX="32.75" PointY="3.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="LoyaltyDBV2_structModel.Document" Width="1.5" PointX="32.75" PointY="33.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="LoyaltyDBV2_structModel.Education" Width="1.5" PointX="33.75" PointY="7.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="LoyaltyDBV2_structModel.Entity" Width="1.5" PointX="13.25" PointY="9" IsExpanded="true" />
+        <EntityTypeShape EntityType="LoyaltyDBV2_structModel.EntityType" Width="1.5" PointX="11" PointY="6.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="LoyaltyDBV2_structModel.FAQ" Width="1.5" PointX="33" PointY="28.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="LoyaltyDBV2_structModel.JobTitle" Width="1.5" PointX="24.75" PointY="3.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="LoyaltyDBV2_structModel.Loyalty" Width="1.5" PointX="31" PointY="15.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="LoyaltyDBV2_structModel.LoyaltyDetail" Width="1.5" PointX="33.25" PointY="15" IsExpanded="true" />
+        <EntityTypeShape EntityType="LoyaltyDBV2_structModel.LuckyDraw" Width="1.5" PointX="31" PointY="22" IsExpanded="true" />
+        <EntityTypeShape EntityType="LoyaltyDBV2_structModel.Member" Width="1.5" PointX="34.75" PointY="33.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="LoyaltyDBV2_structModel.MemberGroup" Width="1.5" PointX="3" PointY="25.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="LoyaltyDBV2_structModel.MemberGroupDetail" Width="1.5" PointX="8.25" PointY="35.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="LoyaltyDBV2_structModel.MemberGroupType" Width="1.5" PointX="0.75" PointY="26.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="LoyaltyDBV2_structModel.MemberRedemption" Width="1.5" PointX="13.25" PointY="14.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="LoyaltyDBV2_structModel.MemberRedemptionDetail" Width="1.5" PointX="15.5" PointY="15" IsExpanded="true" />
+        <EntityTypeShape EntityType="LoyaltyDBV2_structModel.MemberReward" Width="1.5" PointX="33.75" PointY="22.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="LoyaltyDBV2_structModel.MemberRewardDetail" Width="1.5" PointX="7.5" PointY="55.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="LoyaltyDBV2_structModel.MemberRewardHistory" Width="1.5" PointX="35.75" PointY="3.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="LoyaltyDBV2_structModel.Membership" Width="1.5" PointX="35.75" PointY="8.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="LoyaltyDBV2_structModel.MemberType" Width="1.5" PointX="3" PointY="33.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="LoyaltyDBV2_structModel.MemberTypeDetail" Width="1.5" PointX="5.25" PointY="35.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="LoyaltyDBV2_structModel.Merchant" Width="1.5" PointX="3.75" PointY="2.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="LoyaltyDBV2_structModel.MerchantCategory" Width="1.5" PointX="6" PointY="69.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="LoyaltyDBV2_structModel.MerchantProduct" Width="1.5" PointX="6" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="LoyaltyDBV2_structModel.PartnerExchange" Width="1.5" PointX="35.75" PointY="15.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="LoyaltyDBV2_structModel.PartnerPointExchange" Width="1.5" PointX="15.75" PointY="38.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="LoyaltyDBV2_structModel.PriceType" Width="1.5" PointX="14" PointY="29.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="LoyaltyDBV2_structModel.PriceTypeCriteria" Width="1.5" PointX="16.25" PointY="11.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="LoyaltyDBV2_structModel.Product" Width="1.5" PointX="3" PointY="9" IsExpanded="true" />
+        <EntityTypeShape EntityType="LoyaltyDBV2_structModel.ProductAttribute" Width="1.5" PointX="8.25" PointY="7.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="LoyaltyDBV2_structModel.ProductBrand" Width="1.5" PointX="0.75" PointY="6.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="LoyaltyDBV2_structModel.ProductCategory" Width="1.5" PointX="0.75" PointY="10.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="LoyaltyDBV2_structModel.ProductInventory" Width="1.5" PointX="17.75" PointY="38.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="LoyaltyDBV2_structModel.ProductPriceType" Width="1.5" PointX="21.25" PointY="12.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="LoyaltyDBV2_structModel.ProductPromotion" Width="1.5" PointX="11.25" PointY="31.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="LoyaltyDBV2_structModel.ProductPromotionDetail" Width="1.5" PointX="25.75" PointY="25.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="LoyaltyDBV2_structModel.ProductPromotionExclude" Width="1.5" PointX="13.5" PointY="33.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="LoyaltyDBV2_structModel.ProductPromotionExcludedDate" Width="1.5" PointX="13.5" PointY="36.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="LoyaltyDBV2_structModel.ProductPromotionQuantity" Width="1.5" PointX="13.5" PointY="40.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="LoyaltyDBV2_structModel.ProductReward" Width="1.5" PointX="5.25" PointY="25.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="LoyaltyDBV2_structModel.ProductRewardDetail" Width="1.5" PointX="10.5" PointY="27.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="LoyaltyDBV2_structModel.ProductRewardExclude" Width="1.5" PointX="7.5" PointY="23.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="LoyaltyDBV2_structModel.ProductRewardPrice" Width="1.5" PointX="7.5" PointY="45.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="LoyaltyDBV2_structModel.ProductSupplier" Width="1.5" PointX="35.75" PointY="22.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="LoyaltyDBV2_structModel.ProductVariant" Width="1.5" PointX="5.25" PointY="8.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="LoyaltyDBV2_structModel.ProductVariantPrice" Width="1.5" PointX="7.5" PointY="59.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="LoyaltyDBV2_structModel.ProductVariantSupplier" Width="1.5" PointX="35.75" PointY="27.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="LoyaltyDBV2_structModel.ProductVariantValue" Width="1.5" PointX="7.5" PointY="65.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="LoyaltyDBV2_structModel.PromotionUsage" Width="1.5" PointX="29.75" PointY="38.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="LoyaltyDBV2_structModel.RaceType" Width="1.5" PointX="27.75" PointY="25.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="LoyaltyDBV2_structModel.RedemptionCategory" Width="1.5" PointX="11" PointY="57" IsExpanded="true" />
+        <EntityTypeShape EntityType="LoyaltyDBV2_structModel.RedemptionPartner" Width="1.5" PointX="31.75" PointY="38.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="LoyaltyDBV2_structModel.RedemptionProduct" Width="1.5" PointX="13.25" PointY="51.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="LoyaltyDBV2_structModel.RedemptionProductDetail" Width="1.5" PointX="15.5" PointY="55.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="LoyaltyDBV2_structModel.Region" Width="1.5" PointX="11" PointY="10.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="LoyaltyDBV2_structModel.RegionType" Width="1.5" PointX="8.75" PointY="11.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="LoyaltyDBV2_structModel.Religion" Width="1.5" PointX="36.75" PointY="31.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="LoyaltyDBV2_structModel.SalaryRange" Width="1.5" PointX="36.75" PointY="35.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="LoyaltyDBV2_structModel.Salutation" Width="1.5" PointX="36.75" PointY="39.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="LoyaltyDBV2_structModel.SecurityElement" Width="1.5" PointX="13.25" PointY="66.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="LoyaltyDBV2_structModel.SecurityModule" Width="1.5" PointX="37.75" PointY="3.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="LoyaltyDBV2_structModel.SecurityPage" Width="1.5" PointX="11" PointY="66.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="LoyaltyDBV2_structModel.SecurityPasswordPolicy" Width="1.5" PointX="37.75" PointY="8.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="LoyaltyDBV2_structModel.SecurityRole" Width="1.5" PointX="13.25" PointY="4.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="LoyaltyDBV2_structModel.SecurityRoleAccess" Width="1.5" PointX="15.5" PointY="3" IsExpanded="true" />
+        <EntityTypeShape EntityType="LoyaltyDBV2_structModel.SecurityRoleEntity" Width="1.5" PointX="15.5" PointY="7.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="LoyaltyDBV2_structModel.SecurityUser" Width="1.5" PointX="13.25" PointY="22.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="LoyaltyDBV2_structModel.SecurityUserRole" Width="1.5" PointX="18.5" PointY="14.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="LoyaltyDBV2_structModel.sysdiagram" Width="1.5" PointX="30.75" PointY="7.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="LoyaltyDBV2_structModel.SystemAttribute" Width="1.5" PointX="22.75" PointY="21.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="LoyaltyDBV2_structModel.SystemConfig" Width="1.5" PointX="37.75" PointY="13.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="LoyaltyDBV2_structModel.Tax" Width="1.5" PointX="0.75" PointY="14.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="LoyaltyDBV2_structModel.tblAccountEmailChange" Width="1.5" PointX="37.75" PointY="18.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="LoyaltyDBV2_structModel.tblAccountRewardDetail" Width="1.5" PointX="37.75" PointY="22.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="LoyaltyDBV2_structModel.tblAccountRewardStatement" Width="1.5" PointX="37.75" PointY="25.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="LoyaltyDBV2_structModel.tblAccountRewardSummary" Width="1.5" PointX="38.75" PointY="30.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="LoyaltyDBV2_structModel.tblActivityMaster" Width="1.5" PointX="25.75" PointY="12.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="LoyaltyDBV2_structModel.tblActivityQuerySchedule" Width="1.5" PointX="28" PointY="16.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="LoyaltyDBV2_structModel.tblActivityTransaction" Width="1.5" PointX="28" PointY="21.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="LoyaltyDBV2_structModel.tblAPIConfiguration" Width="1.5" PointX="38.75" PointY="37.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="LoyaltyDBV2_structModel.tblAPIKey" Width="1.5" PointX="20.75" PointY="16.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="LoyaltyDBV2_structModel.tblAPIKeyRole" Width="1.5" PointX="23" PointY="16.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="LoyaltyDBV2_structModel.tblAPIRole" Width="1.5" PointX="20.75" PointY="54.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="LoyaltyDBV2_structModel.tblAttribute" Width="1.5" PointX="38.75" PointY="40.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="LoyaltyDBV2_structModel.tblAttributeObject" Width="1.5" PointX="39.75" PointY="3.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="LoyaltyDBV2_structModel.tblAuditLog" Width="1.5" PointX="39.75" PointY="7.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="LoyaltyDBV2_structModel.tblAuditLogDetail" Width="1.5" PointX="39.75" PointY="11.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="LoyaltyDBV2_structModel.tblBIRTReport" Width="1.5" PointX="39.75" PointY="15.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="LoyaltyDBV2_structModel.tblBlockCode" Width="1.5" PointX="39.75" PointY="19.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="LoyaltyDBV2_structModel.tblCampaignAttachment" Width="1.5" PointX="22.75" PointY="45.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="LoyaltyDBV2_structModel.tblCardInventory" Width="1.5" PointX="5.25" PointY="59.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="LoyaltyDBV2_structModel.tblCorporateMasterData" Width="1.5" PointX="39.75" PointY="22.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="LoyaltyDBV2_structModel.tblCorporateProductReward" Width="1.5" PointX="5.25" PointY="39.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="LoyaltyDBV2_structModel.tblCorporateProductRewardDetail" Width="1.5" PointX="10.5" PointY="43.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="LoyaltyDBV2_structModel.tblCorporateProductRewardExclude" Width="1.5" PointX="10.5" PointY="47.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="LoyaltyDBV2_structModel.tblCorporateProductRewardPrice" Width="1.5" PointX="7.5" PointY="50.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="LoyaltyDBV2_structModel.tblCorporateProfile" Width="1.5" PointX="40.75" PointY="25.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="LoyaltyDBV2_structModel.tblDirectCampaign" Width="1.5" PointX="20.5" PointY="37.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="LoyaltyDBV2_structModel.tblDirectCampaignRecipient" Width="1.5" PointX="25" PointY="32.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="LoyaltyDBV2_structModel.tblDirectCampaignRecipientMaster" Width="1.5" PointX="28" PointY="32.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="LoyaltyDBV2_structModel.tblDirectCampaignRun" Width="1.5" PointX="22.75" PointY="39.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="LoyaltyDBV2_structModel.tblemailqueue" Width="1.5" PointX="24.75" PointY="43.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="LoyaltyDBV2_structModel.tblEmailSentLog" Width="1.5" PointX="26.75" PointY="43.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="LoyaltyDBV2_structModel.tblEmailSetting" Width="1.5" PointX="40.75" PointY="31.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="LoyaltyDBV2_structModel.tblFileSetting" Width="1.5" PointX="28.75" PointY="43.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="LoyaltyDBV2_structModel.tblHobby" Width="1.5" PointX="27.75" PointY="4" IsExpanded="true" />
+        <EntityTypeShape EntityType="LoyaltyDBV2_structModel.tblInterest" Width="1.5" PointX="24.75" PointY="29" IsExpanded="true" />
+        <EntityTypeShape EntityType="LoyaltyDBV2_structModel.tblLanguage" Width="1.5" PointX="18.75" PointY="8.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="LoyaltyDBV2_structModel.tblLanguageField" Width="1.5" PointX="18.75" PointY="49.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="LoyaltyDBV2_structModel.tblLanguageObject" Width="1.5" PointX="21" PointY="8.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="LoyaltyDBV2_structModel.tblMarketingCampaign" Width="1.5" PointX="40.75" PointY="36.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="LoyaltyDBV2_structModel.tblMasterAccount" Width="1.5" PointX="41.75" PointY="3.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="LoyaltyDBV2_structModel.tblMasterAccountHobby" Width="1.5" PointX="41.75" PointY="15.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="LoyaltyDBV2_structModel.tblMasterAccountInterest" Width="1.5" PointX="12.75" PointY="44.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="LoyaltyDBV2_structModel.tblMasterAccountMember" Width="1.5" PointX="24.75" PointY="21.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="LoyaltyDBV2_structModel.tblMasterAccountMemberArchive" Width="1.5" PointX="41.75" PointY="18.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="LoyaltyDBV2_structModel.tblMasterFile" Width="1.5" PointX="41.75" PointY="22.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="LoyaltyDBV2_structModel.tblMemberAdjustment" Width="1.5" PointX="30.75" PointY="44.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="LoyaltyDBV2_structModel.tblMemberAdjustmentCorporate" Width="1.5" PointX="36.75" PointY="44.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="LoyaltyDBV2_structModel.tblMembereStatement" Width="1.5" PointX="42.75" PointY="25.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="LoyaltyDBV2_structModel.tblMembereStatementDiff" Width="1.5" PointX="42.75" PointY="29.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="LoyaltyDBV2_structModel.tblMemberHobby" Width="1.5" PointX="30" PointY="3.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="LoyaltyDBV2_structModel.tblMemberInterest" Width="1.5" PointX="27" PointY="28.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="LoyaltyDBV2_structModel.tblMemberList" Width="1.5" PointX="22.75" PointY="31.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="LoyaltyDBV2_structModel.tblMemberMsg" Width="1.5" PointX="42.75" PointY="34.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="LoyaltyDBV2_structModel.tblMemberPromo" Width="1.5" PointX="8.25" PointY="19.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="LoyaltyDBV2_structModel.tblMemberPromoHistory" Width="1.5" PointX="8.25" PointY="69" IsExpanded="true" />
+        <EntityTypeShape EntityType="LoyaltyDBV2_structModel.tblMemberReward_MemberRedemption" Width="1.5" PointX="42.75" PointY="37.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="LoyaltyDBV2_structModel.tblMemberRewarDeductionTnx" Width="1.5" PointX="42.75" PointY="41.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="LoyaltyDBV2_structModel.tblMembershipChangeStatu" Width="1.5" PointX="38.75" PointY="45.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="LoyaltyDBV2_structModel.tblMembershipProfile" Width="1.5" PointX="40.75" PointY="45.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="LoyaltyDBV2_structModel.tblMemberTypeWhiteList" Width="1.5" PointX="5.25" PointY="73.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="LoyaltyDBV2_structModel.tblMemberVoucher" Width="1.5" PointX="42.75" PointY="45.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="LoyaltyDBV2_structModel.tblMerchantAuditLog" Width="1.5" PointX="43.75" PointY="3.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="LoyaltyDBV2_structModel.tblMerchantLocation" Width="1.5" PointX="0.75" PointY="46.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="LoyaltyDBV2_structModel.tblMerchantLogin" Width="1.5" PointX="43.75" PointY="6.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="LoyaltyDBV2_structModel.tblMerchantPortalSession" Width="1.5" PointX="43.75" PointY="11.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="LoyaltyDBV2_structModel.tblMerchantProducMemberType" Width="1.5" PointX="8.25" PointY="31" IsExpanded="true" />
+        <EntityTypeShape EntityType="LoyaltyDBV2_structModel.tblMerchantProductLocation" Width="1.5" PointX="8.25" PointY="4.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="LoyaltyDBV2_structModel.tblMerchantProductRating" Width="1.5" PointX="8.25" PointY="15.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="LoyaltyDBV2_structModel.tblMerchantPwdHistory" Width="1.5" PointX="17.75" PointY="43.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="LoyaltyDBV2_structModel.tblMerchantRequest" Width="1.5" PointX="43.75" PointY="14.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="LoyaltyDBV2_structModel.tblMerchantSetting" Width="1.5" PointX="43.75" PointY="20.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="LoyaltyDBV2_structModel.tblNonMemberRegistration" Width="1.5" PointX="12.75" PointY="47.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="LoyaltyDBV2_structModel.tblPartnerPointExchangeBSN" Width="1.5" PointX="44.75" PointY="23.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="LoyaltyDBV2_structModel.tblPartnerPortalPwdHistory" Width="1.5" PointX="44.75" PointY="27.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="LoyaltyDBV2_structModel.tblPartnerPortalSession" Width="1.5" PointX="44.75" PointY="30.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="LoyaltyDBV2_structModel.tblPendingMerchantProductMemberTypeRequest" Width="1.5" PointX="8.25" PointY="39.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="LoyaltyDBV2_structModel.tblPointBatchActvity" Width="1.5" PointX="28" PointY="12.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="LoyaltyDBV2_structModel.tblPointBatchProcess" Width="1.5" PointX="25.75" PointY="6.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="LoyaltyDBV2_structModel.tblPointBatchTransaction" Width="1.5" PointX="28" PointY="7.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="LoyaltyDBV2_structModel.tblPointCurrencyValue" Width="1.5" PointX="0.75" PointY="36.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="LoyaltyDBV2_structModel.tblPointCurrencyValueRate" Width="1.5" PointX="3" PointY="42.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="LoyaltyDBV2_structModel.tblPortalContent" Width="1.5" PointX="44.75" PointY="33.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="LoyaltyDBV2_structModel.tblPortalCredential" Width="1.5" PointX="32.75" PointY="47.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="LoyaltyDBV2_structModel.tblPortalCredentialRight" Width="1.5" PointX="44.75" PointY="38.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="LoyaltyDBV2_structModel.tblPortalData" Width="1.5" PointX="44.75" PointY="42.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="LoyaltyDBV2_structModel.tblPortalPwdHistory" Width="1.5" PointX="44.75" PointY="45.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="LoyaltyDBV2_structModel.tblPortalSession" Width="1.5" PointX="45.75" PointY="3.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="LoyaltyDBV2_structModel.tblProcessTime" Width="1.5" PointX="45.75" PointY="6.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="LoyaltyDBV2_structModel.tblqueuemaster" Width="1.5" PointX="45.75" PointY="11.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="LoyaltyDBV2_structModel.tblRedemptionCardInstallment" Width="1.5" PointX="45.75" PointY="15.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="LoyaltyDBV2_structModel.tblRedemptionCardPayment" Width="1.5" PointX="34.75" PointY="48.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="LoyaltyDBV2_structModel.tblRedemptionCashReward" Width="1.5" PointX="36.75" PointY="48.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="LoyaltyDBV2_structModel.tblRedemptionInstant" Width="1.5" PointX="44.75" PointY="48.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="LoyaltyDBV2_structModel.tblRedemptionInstantRequest" Width="1.5" PointX="2.75" PointY="49.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="LoyaltyDBV2_structModel.tblRedemptionKnockOff" Width="1.5" PointX="4.75" PointY="49.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="LoyaltyDBV2_structModel.tblRedemptionPartnerExchange" Width="1.5" PointX="46.75" PointY="21.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="LoyaltyDBV2_structModel.tblReportLayout" Width="1.5" PointX="17.75" PointY="3.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="LoyaltyDBV2_structModel.tblReportPage" Width="1.5" PointX="20" PointY="3.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="LoyaltyDBV2_structModel.tblReportStandard" Width="1.5" PointX="20.75" PointY="49.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="LoyaltyDBV2_structModel.tblReportStandardCategory" Width="1.5" PointX="17.75" PointY="34.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="LoyaltyDBV2_structModel.tblRewardFundMaster" Width="1.5" PointX="3" PointY="20.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="LoyaltyDBV2_structModel.tblRewardPromo" Width="1.5" PointX="6" PointY="17.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="LoyaltyDBV2_structModel.tblRewardPromoMemberType" Width="1.5" PointX="8.25" PointY="27.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="LoyaltyDBV2_structModel.tblSecurityForgotPwdHistory" Width="1.5" PointX="46.75" PointY="28.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="LoyaltyDBV2_structModel.tblSecurityLoginLog" Width="1.5" PointX="26.75" PointY="49.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="LoyaltyDBV2_structModel.tblSecurityOTPSession" Width="1.5" PointX="28.75" PointY="49.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="LoyaltyDBV2_structModel.tblSecurityPage" Width="1.5" PointX="2.75" PointY="16.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="LoyaltyDBV2_structModel.tblSecuritySessionLogin" Width="1.5" PointX="15.5" PointY="24.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="LoyaltyDBV2_structModel.tblSecuritySetting" Width="1.5" PointX="46.75" PointY="32.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="LoyaltyDBV2_structModel.tblSegmentBatch" Width="1.5" PointX="25" PointY="38.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="LoyaltyDBV2_structModel.tblSegmentData" Width="1.5" PointX="27.25" PointY="38.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="LoyaltyDBV2_structModel.tblSetting" Width="1.5" PointX="46.75" PointY="36.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="LoyaltyDBV2_structModel.tblSettingPartnerPortal" Width="1.5" PointX="46.75" PointY="39.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="LoyaltyDBV2_structModel.tblsmsqueue" Width="1.5" PointX="46.75" PointY="42.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="LoyaltyDBV2_structModel.tblSocialAccount" Width="1.5" PointX="46.75" PointY="48.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="LoyaltyDBV2_structModel.tblSR" Width="1.5" PointX="18.5" PointY="22.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="LoyaltyDBV2_structModel.tblSRAssignment" Width="1.5" PointX="23.75" PointY="24.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="LoyaltyDBV2_structModel.tblSRAttachment" Width="1.5" PointX="20.75" PointY="23.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="LoyaltyDBV2_structModel.tblSRConfiguration" Width="1.5" PointX="47.75" PointY="3.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="LoyaltyDBV2_structModel.tblSRCustomerResponse" Width="1.5" PointX="20.75" PointY="27.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="LoyaltyDBV2_structModel.tblSRInternalRemark" Width="1.5" PointX="20.75" PointY="31.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="LoyaltyDBV2_structModel.tblSRKB" Width="1.5" PointX="47.75" PointY="6.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="LoyaltyDBV2_structModel.tblSRLog" Width="1.5" PointX="47.75" PointY="10.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="LoyaltyDBV2_structModel.tblSRStatu" Width="1.5" PointX="16.25" PointY="28.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="LoyaltyDBV2_structModel.tblSRType" Width="1.5" PointX="16.25" PointY="31.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="LoyaltyDBV2_structModel.tblTemplate" Width="1.5" PointX="47.75" PointY="14.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="LoyaltyDBV2_structModel.tblTransactionData" Width="1.5" PointX="38.75" PointY="50.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="LoyaltyDBV2_structModel.tblUserProfilePwdHistory" Width="1.5" PointX="17.75" PointY="46" IsExpanded="true" />
+        <EntityTypeShape EntityType="LoyaltyDBV2_structModel.tblWebCoporatePortalSetting" Width="1.5" PointX="47.75" PointY="18.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="LoyaltyDBV2_structModel.tblWebPortalSetting" Width="1.5" PointX="15.75" PointY="50.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="LoyaltyDBV2_structModel.tblWSLog" Width="1.5" PointX="9.75" PointY="51.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="LoyaltyDBV2_structModel.tblWSLogResponse" Width="1.5" PointX="48.75" PointY="21.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="LoyaltyDBV2_structModel.TimeTable" Width="1.5" PointX="48.75" PointY="24.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="LoyaltyDBV2_structModel.UserProfile" Width="1.5" PointX="15.5" PointY="44.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="LoyaltyDBV2_structModel.Voucher" Width="1.5" PointX="22.75" PointY="51.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="LoyaltyDBV2_structModel.VoucherException" Width="1.5" PointX="48.75" PointY="33.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="LoyaltyDBV2_structModel.VoucherPayment" Width="1.5" PointX="48.75" PointY="38.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="LoyaltyDBV2_structModel.MemberReward_Error" Width="1.5" PointX="48.75" PointY="43.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="LoyaltyDBV2_structModel.MemberRewardDeductionTxn" Width="1.5" PointX="40.75" PointY="51.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="LoyaltyDBV2_structModel.MemberRewardHistory_Error" Width="1.5" PointX="48.75" PointY="50.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="LoyaltyDBV2_structModel.RedemptionCart" Width="1.5" PointX="49.75" PointY="3.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="LoyaltyDBV2_structModel.tblAgingColumn" Width="1.5" PointX="49.75" PointY="7.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="LoyaltyDBV2_structModel.tblMemberRewarDeductionTnx_Error_History" Width="1.5" PointX="49.75" PointY="10.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="LoyaltyDBV2_structModel.tblMemberRewarDeductionTnx_Error_Reward" Width="1.5" PointX="49.75" PointY="14.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="LoyaltyDBV2_structModel.tblPeriodTable" Width="1.5" PointX="50.75" PointY="18.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="LoyaltyDBV2_structModel.tblRptParamsFrequency" Width="1.5" PointX="50.75" PointY="23.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="LoyaltyDBV2_structModel.tblRptParamsTransRange" Width="1.5" PointX="50.75" PointY="26.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="LoyaltyDBV2_structModel.Admin_UserRole" Width="1.5" PointX="24.75" PointY="53.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="LoyaltyDBV2_structModel.AnnualFee" Width="1.5" PointX="50.75" PointY="29.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="LoyaltyDBV2_structModel.CountryView" Width="1.5" PointX="26.75" PointY="53.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="LoyaltyDBV2_structModel.LatestAnnualFee" Width="1.5" PointX="28.75" PointY="53.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="LoyaltyDBV2_structModel.LMSBatchProcessTime" Width="1.5" PointX="50.75" PointY="33.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="LoyaltyDBV2_structModel.Member_Individual_Index" Width="1.5" PointX="30.75" PointY="53.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="LoyaltyDBV2_structModel.MemberBalanceValue_VW" Width="1.5" PointX="19.75" PointY="35.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="LoyaltyDBV2_structModel.MemberGroup_List" Width="1.5" PointX="50.75" PointY="38.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="LoyaltyDBV2_structModel.MemberPoint" Width="1.5" PointX="24.75" PointY="36.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="LoyaltyDBV2_structModel.MemberRenewalStatus_List" Width="1.5" PointX="50.75" PointY="44.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="LoyaltyDBV2_structModel.MemberType_List" Width="1.5" PointX="50.75" PointY="48.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="LoyaltyDBV2_structModel.PartnerExchangeRateList" Width="1.5" PointX="50.75" PointY="53.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="LoyaltyDBV2_structModel.Product_CategoryParentNull" Width="1.5" PointX="51.75" PointY="3.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="LoyaltyDBV2_structModel.Product_Product_List" Width="1.5" PointX="51.75" PointY="6.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="LoyaltyDBV2_structModel.ProductIncludeList" Width="1.5" PointX="51.75" PointY="12.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="LoyaltyDBV2_structModel.ProductQuantity" Width="1.5" PointX="17.75" PointY="54.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="LoyaltyDBV2_structModel.ProductSKU" Width="1.5" PointX="32.75" PointY="54.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="LoyaltyDBV2_structModel.ProductSKU_Reward" Width="1.5" PointX="52.75" PointY="16.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="LoyaltyDBV2_structModel.RedeemProduct" Width="1.5" PointX="52.75" PointY="20.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="LoyaltyDBV2_structModel.Redemption_ListProduct_Result" Width="1.5" PointX="52.75" PointY="24.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="LoyaltyDBV2_structModel.RedemptionConfirmDetail" Width="1.5" PointX="52.75" PointY="28.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="LoyaltyDBV2_structModel.RedemptionConfirmList" Width="1.5" PointX="52.75" PointY="34.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="LoyaltyDBV2_structModel.RedemptionList" Width="1.5" PointX="34.75" PointY="55.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="LoyaltyDBV2_structModel.RedemptionProductDetailList" Width="1.5" PointX="52.75" PointY="38.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="LoyaltyDBV2_structModel.RedemptionProductList" Width="1.5" PointX="40.75" PointY="55.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="LoyaltyDBV2_structModel.RedemptionStatu" Width="1.5" PointX="52.75" PointY="44.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="LoyaltyDBV2_structModel.RedemptionView" Width="1.5" PointX="42.75" PointY="55.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="LoyaltyDBV2_structModel.RedemtionProductList_NotInMemberReward" Width="1.5" PointX="44.75" PointY="55.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="LoyaltyDBV2_structModel.Reward_Activity" Width="1.5" PointX="46.75" PointY="55.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="LoyaltyDBV2_structModel.Reward_Adjustment" Width="1.5" PointX="52.75" PointY="51.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="LoyaltyDBV2_structModel.Reward_PointRebate" Width="1.5" PointX="53.75" PointY="3.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="LoyaltyDBV2_structModel.Reward_PointTranfer" Width="1.5" PointX="53.75" PointY="6.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="LoyaltyDBV2_structModel.RewardAdjustment" Width="1.5" PointX="53.75" PointY="11.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="LoyaltyDBV2_structModel.RewardsAdjustment_new" Width="1.5" PointX="26.75" PointY="56.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="LoyaltyDBV2_structModel.RewardsAdjustment_newCorporate" Width="1.5" PointX="36.75" PointY="56.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="LoyaltyDBV2_structModel.SKU" Width="1.5" PointX="52.75" PointY="56.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="LoyaltyDBV2_structModel.SKUPivot" Width="1.5" PointX="0.75" PointY="57.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="LoyaltyDBV2_structModel.StateView" Width="1.5" PointX="54.75" PointY="15.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="LoyaltyDBV2_structModel.SupplementCardList" Width="1.5" PointX="54.75" PointY="21.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="LoyaltyDBV2_structModel.TransferRebate" Width="1.5" PointX="19.75" PointY="57.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="LoyaltyDBV2_structModel.UnfilfilledRedemption_List" Width="1.5" PointX="54.75" PointY="24.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="LoyaltyDBV2_structModel.User" Width="1.5" PointX="21.75" PointY="57.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="LoyaltyDBV2_structModel.UserDetail" Width="1.5" PointX="54.75" PointY="31.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="LoyaltyDBV2_structModel.view_Estatement_Transaction" Width="1.5" PointX="54.75" PointY="37.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="LoyaltyDBV2_structModel.view_Estatement_Transaction_Individual" Width="1.5" PointX="54.75" PointY="43.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="LoyaltyDBV2_structModel.view_getMembersSummaryInfo" Width="1.5" PointX="54.75" PointY="48.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="LoyaltyDBV2_structModel.View_Member_Can_Transfer_Cash" Width="1.5" PointX="48.75" PointY="57.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="LoyaltyDBV2_structModel.View_Member_Can_Transfer_Point" Width="1.5" PointX="54.75" PointY="52.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="LoyaltyDBV2_structModel.view_MemberList" Width="1.5" PointX="55.75" PointY="3.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="LoyaltyDBV2_structModel.view_merchant_portal_login" Width="1.5" PointX="55.75" PointY="8.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="LoyaltyDBV2_structModel.view_processFileStatus" Width="1.5" PointX="56.75" PointY="14.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="LoyaltyDBV2_structModel.view_RedemptionFulfillmentStatement" Width="1.5" PointX="56.75" PointY="19.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="LoyaltyDBV2_structModel.view_SearchMemberForCampain" Width="1.5" PointX="23.75" PointY="59.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="LoyaltyDBV2_structModel.View_SearchRedemptionForCancel" Width="1.5" PointX="56.75" PointY="27.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="LoyaltyDBV2_structModel.viewActivityQuerySchedule" Width="1.5" PointX="56.75" PointY="32.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="LoyaltyDBV2_structModel.ViewAnnoucement" Width="1.5" PointX="56.75" PointY="37.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="LoyaltyDBV2_structModel.viewAuditLogDetail" Width="1.5" PointX="56.75" PointY="43.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="LoyaltyDBV2_structModel.viewBatchActivityTrx" Width="1.5" PointX="56.75" PointY="47.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="LoyaltyDBV2_structModel.viewBatchTransactionTrx" Width="1.5" PointX="56.75" PointY="51.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="LoyaltyDBV2_structModel.viewEstatement" Width="1.5" PointX="56.75" PointY="59.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="LoyaltyDBV2_structModel.viewEVoucher" Width="1.5" PointX="57.75" PointY="3.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="LoyaltyDBV2_structModel.ViewFAQ" Width="1.5" PointX="32.75" PointY="60.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="LoyaltyDBV2_structModel.viewGetMasterAccountAddress" Width="1.5" PointX="50.75" PointY="60.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="LoyaltyDBV2_structModel.ViewGetMemberChangeInfo" Width="1.5" PointX="58.75" PointY="9.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="LoyaltyDBV2_structModel.viewMasterAccountExtInfo" Width="1.5" PointX="9.75" PointY="61.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="LoyaltyDBV2_structModel.viewMasterFileCalculationFrequency" Width="1.5" PointX="58.75" PointY="15.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="LoyaltyDBV2_structModel.viewMasterFileGender" Width="1.5" PointX="58.75" PointY="18.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="LoyaltyDBV2_structModel.viewMasterFileMaritalStatus" Width="1.5" PointX="17.75" PointY="61.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="LoyaltyDBV2_structModel.viewMasterFileMemberStatu" Width="1.5" PointX="58.75" PointY="21.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="LoyaltyDBV2_structModel.viewMasterFilePointsExpiry" Width="1.5" PointX="58.75" PointY="24.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="LoyaltyDBV2_structModel.viewMasterFilePreferredContactMethod" Width="1.5" PointX="58.75" PointY="27.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="LoyaltyDBV2_structModel.viewMasterFileRebateHistoyType" Width="1.5" PointX="58.75" PointY="30.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="LoyaltyDBV2_structModel.viewMasterFileReferenceType" Width="1.5" PointX="58.75" PointY="33.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="LoyaltyDBV2_structModel.viewMasterFileRewardHistoryType" Width="1.5" PointX="58.75" PointY="36.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="LoyaltyDBV2_structModel.viewMasterFileRewardMethod" Width="1.5" PointX="58.75" PointY="39.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="LoyaltyDBV2_structModel.viewMasterFileRewardType" Width="1.5" PointX="38.75" PointY="61.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="LoyaltyDBV2_structModel.viewMember" Width="1.5" PointX="58.75" PointY="42.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="LoyaltyDBV2_structModel.viewMember_MemberType" Width="1.5" PointX="58.75" PointY="56.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="LoyaltyDBV2_structModel.viewMember2" Width="1.5" PointX="59.75" PointY="3.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="LoyaltyDBV2_structModel.viewMemberBalance" Width="1.5" PointX="0.75" PointY="62.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="LoyaltyDBV2_structModel.viewMemberCoporate" Width="1.5" PointX="25.75" PointY="62.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="LoyaltyDBV2_structModel.viewMemberExtInfo" Width="1.5" PointX="27.75" PointY="62.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="LoyaltyDBV2_structModel.viewMemberTrxForReport" Width="1.5" PointX="34.75" PointY="62.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="LoyaltyDBV2_structModel.viewMerchantCategory" Width="1.5" PointX="44.75" PointY="62.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="LoyaltyDBV2_structModel.viewNonMember" Width="1.5" PointX="60.75" PointY="7.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="LoyaltyDBV2_structModel.viewPortalMasterAccount" Width="1.5" PointX="60.75" PointY="11.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="LoyaltyDBV2_structModel.viewRedemption" Width="1.5" PointX="60.75" PointY="26.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="LoyaltyDBV2_structModel.viewRedemptionCashForReport" Width="1.5" PointX="60.75" PointY="30.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="LoyaltyDBV2_structModel.viewRedemptionForReport" Width="1.5" PointX="60.75" PointY="40.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="LoyaltyDBV2_structModel.viewRegionCity" Width="1.5" PointX="60.75" PointY="45.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="LoyaltyDBV2_structModel.viewRegionCityState" Width="1.5" PointX="60.75" PointY="48.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="LoyaltyDBV2_structModel.viewRegionState" Width="1.5" PointX="60.75" PointY="51.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="LoyaltyDBV2_structModel.viewRewardForReport" Width="1.5" PointX="60.75" PointY="54.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="LoyaltyDBV2_structModel.viewTblCardInventory" Width="1.5" PointX="60.75" PointY="60.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="LoyaltyDBV2_structModel.viewTblEmailSetting" Width="1.5" PointX="2.75" PointY="64.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="LoyaltyDBV2_structModel.viewTblFileSetting" Width="1.5" PointX="15.75" PointY="64.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="LoyaltyDBV2_structModel.vMemberShip" Width="1.5" PointX="4.75" PointY="64.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="LoyaltyDBV2_structModel.VoucherIssued" Width="1.5" PointX="61.75" PointY="3.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="LoyaltyDBV2_structModel.VoucherRedemptionList" Width="1.5" PointX="17.75" PointY="64.375" IsExpanded="true" />
+        <AssociationConnector Association="LoyaltyDBV2_structModel.FK_ProductAttribute_Attribute" ManuallyRouted="false" />
+        <AssociationConnector Association="LoyaltyDBV2_structModel.FK_FAQ_Category" ManuallyRouted="false" />
+        <AssociationConnector Association="LoyaltyDBV2_structModel.FK_LoyaltyDetail_Coupon" ManuallyRouted="false" />
+        <AssociationConnector Association="LoyaltyDBV2_structModel.FK_Entity_Entity" ManuallyRouted="false" />
+        <AssociationConnector Association="LoyaltyDBV2_structModel.FK_Entity_EntityType" ManuallyRouted="false" />
+        <AssociationConnector Association="LoyaltyDBV2_structModel.FK_Entity_Region" ManuallyRouted="false" />
+        <AssociationConnector Association="LoyaltyDBV2_structModel.FK_Entity_Region1" ManuallyRouted="false" />
+        <AssociationConnector Association="LoyaltyDBV2_structModel.FK_Entity_Region2" ManuallyRouted="false" />
+        <AssociationConnector Association="LoyaltyDBV2_structModel.FK_SecurityRoleEntity_Entity" ManuallyRouted="false" />
+        <AssociationConnector Association="LoyaltyDBV2_structModel.FK_Loyalty_tblActivityMaster" ManuallyRouted="false" />
+        <AssociationConnector Association="LoyaltyDBV2_structModel.FK_Loyalty_tblRewardFundMaster" ManuallyRouted="false" />
+        <AssociationConnector Association="LoyaltyDBV2_structModel.FK_LoyaltyDetail_Loyalty" ManuallyRouted="false" />
+        <AssociationConnector Association="LoyaltyDBV2_structModel.FK_LoyaltyDetail_LuckyDraw1" ManuallyRouted="false" />
+        <AssociationConnector Association="LoyaltyDBV2_structModel.FK_MemberGroup_MemberGroupType" ManuallyRouted="false" />
+        <AssociationConnector Association="LoyaltyDBV2_structModel.FK_MemberGroupDetail_MemberGroup" ManuallyRouted="false" />
+        <AssociationConnector Association="LoyaltyDBV2_structModel.FK_ProductPromotion_MemberGroup" ManuallyRouted="false" />
+        <AssociationConnector Association="LoyaltyDBV2_structModel.FK_ProductReward_MemberGroup" ManuallyRouted="false" />
+        <AssociationConnector Association="LoyaltyDBV2_structModel.FK_MemberGroupDetail_MemberType" ManuallyRouted="false" />
+        <AssociationConnector Association="LoyaltyDBV2_structModel.FK_MemberRedemption_Region" ManuallyRouted="false" />
+        <AssociationConnector Association="LoyaltyDBV2_structModel.FK_MemberRedemption_Region1" ManuallyRouted="false" />
+        <AssociationConnector Association="LoyaltyDBV2_structModel.FK_MemberRedemption_Region2" ManuallyRouted="false" />
+        <AssociationConnector Association="LoyaltyDBV2_structModel.FK_MemberRedemptionDetail_MemberRedemption" ManuallyRouted="false" />
+        <AssociationConnector Association="LoyaltyDBV2_structModel.FK_MemberRedemptionDetail_RedemptionProduct" ManuallyRouted="false" />
+        <AssociationConnector Association="LoyaltyDBV2_structModel.FK_MemberRewardDetail_ProductVariant" ManuallyRouted="false" />
+        <AssociationConnector Association="LoyaltyDBV2_structModel.FK_MemberType_tblPointCurrencyValue" ManuallyRouted="false" />
+        <AssociationConnector Association="LoyaltyDBV2_structModel.FK_MemberTypeDetail_MemberType" ManuallyRouted="false" />
+        <AssociationConnector Association="LoyaltyDBV2_structModel.FK_ProductPromotion_MemberType" ManuallyRouted="false" />
+        <AssociationConnector Association="LoyaltyDBV2_structModel.FK_ProductReward_MemberType" ManuallyRouted="false" />
+        <AssociationConnector Association="LoyaltyDBV2_structModel.FK_tblCardInventory_MemberType" ManuallyRouted="false" />
+        <AssociationConnector Association="LoyaltyDBV2_structModel.FK_tblCorporateProductReward_MemberType" ManuallyRouted="false" />
+        <AssociationConnector Association="LoyaltyDBV2_structModel.FK_tblMemberTypeWhiteList_MemberType" ManuallyRouted="false" />
+        <AssociationConnector Association="LoyaltyDBV2_structModel.FK_tblMerchantProducMemberType_MemberType" ManuallyRouted="false" />
+        <AssociationConnector Association="LoyaltyDBV2_structModel.FK_tblPendingMerchantProductMemberTypeRequest_MemberType" ManuallyRouted="false" />
+        <AssociationConnector Association="LoyaltyDBV2_structModel.FK_tblRewardPromoMemberType_MemberType" ManuallyRouted="false" />
+        <AssociationConnector Association="LoyaltyDBV2_structModel.FK_MerchantCategory_Merchant" ManuallyRouted="false" />
+        <AssociationConnector Association="LoyaltyDBV2_structModel.FK_MerchantProduct_Merchant" ManuallyRouted="false" />
+        <AssociationConnector Association="LoyaltyDBV2_structModel.FK_tblMerchantProducMemberType_MerchantProduct" ManuallyRouted="false" />
+        <AssociationConnector Association="LoyaltyDBV2_structModel.FK_tblMerchantProductLocation_MerchantProduct" ManuallyRouted="false" />
+        <AssociationConnector Association="LoyaltyDBV2_structModel.FK_tblMerchantProductRating_MerchantProduct" ManuallyRouted="false" />
+        <AssociationConnector Association="LoyaltyDBV2_structModel.FK_tblPendingMerchantProductMemberTypeRequest_MerchantProduct" ManuallyRouted="false" />
+        <AssociationConnector Association="LoyaltyDBV2_structModel.FK_PriceTypeCriteria_PriceType" ManuallyRouted="false" />
+        <AssociationConnector Association="LoyaltyDBV2_structModel.FK_ProductPriceType_PriceType" ManuallyRouted="false" />
+        <AssociationConnector Association="LoyaltyDBV2_structModel.FK_PriceTypeCriteria_Region" ManuallyRouted="false" />
+        <AssociationConnector Association="LoyaltyDBV2_structModel.FK_Product_ProductBrand" ManuallyRouted="false" />
+        <AssociationConnector Association="LoyaltyDBV2_structModel.FK_Product_ProductCategory" ManuallyRouted="false" />
+        <AssociationConnector Association="LoyaltyDBV2_structModel.FK_Product_Tax" ManuallyRouted="false" />
+        <AssociationConnector Association="LoyaltyDBV2_structModel.FK_ProductAttribute_Product" ManuallyRouted="false" />
+        <AssociationConnector Association="LoyaltyDBV2_structModel.FK_ProductVariant_Product" ManuallyRouted="false" />
+        <AssociationConnector Association="LoyaltyDBV2_structModel.FK_ProductCategory_ProductCategory" ManuallyRouted="false" />
+        <AssociationConnector Association="LoyaltyDBV2_structModel.FK_ProductPriceType_ProductVariant" ManuallyRouted="false" />
+        <AssociationConnector Association="LoyaltyDBV2_structModel.FK_ProductPromotion_tblRewardFundMaster" ManuallyRouted="false" />
+        <AssociationConnector Association="LoyaltyDBV2_structModel.FK_ProductPromotion_tblRewardPromo" ManuallyRouted="false" />
+        <AssociationConnector Association="LoyaltyDBV2_structModel.FK_ProductPromotionExclude_ProductPromotion" ManuallyRouted="false" />
+        <AssociationConnector Association="LoyaltyDBV2_structModel.FK_ProductPromotionExcludedDate_ProductPromotion" ManuallyRouted="false" />
+        <AssociationConnector Association="LoyaltyDBV2_structModel.FK_ProductPromotionQuantity_ProductPromotion" ManuallyRouted="false" />
+        <AssociationConnector Association="LoyaltyDBV2_structModel.FK_ProductPromotionExclude_ProductVariant" ManuallyRouted="false" />
+        <AssociationConnector Association="LoyaltyDBV2_structModel.FK_ProductReward_tblRewardFundMaster" ManuallyRouted="false" />
+        <AssociationConnector Association="LoyaltyDBV2_structModel.FK_ProductReward_tblRewardPromo" ManuallyRouted="false" />
+        <AssociationConnector Association="LoyaltyDBV2_structModel.FK_ProductRewardDetail_ProductReward" ManuallyRouted="false" />
+        <AssociationConnector Association="LoyaltyDBV2_structModel.FK_ProductRewardExclude_ProductReward" ManuallyRouted="false" />
+        <AssociationConnector Association="LoyaltyDBV2_structModel.FK_ProductRewardPrice_ProductReward" ManuallyRouted="false" />
+        <AssociationConnector Association="LoyaltyDBV2_structModel.FK_ProductPointDetail_ProductVariant" ManuallyRouted="false" />
+        <AssociationConnector Association="LoyaltyDBV2_structModel.FK_ProductRewardExclude_ProductVariant" ManuallyRouted="false" />
+        <AssociationConnector Association="LoyaltyDBV2_structModel.FK_ProductVariantPrice_ProductVariant" ManuallyRouted="false" />
+        <AssociationConnector Association="LoyaltyDBV2_structModel.FK_ProductVariantValue_ProductVariant" ManuallyRouted="false" />
+        <AssociationConnector Association="LoyaltyDBV2_structModel.FK_tblCorporateProductRewardDetail_ProductVariant" ManuallyRouted="false" />
+        <AssociationConnector Association="LoyaltyDBV2_structModel.FK_tblCorporateProductRewardExclude_ProductVariant" ManuallyRouted="false" />
+        <AssociationConnector Association="LoyaltyDBV2_structModel.FK_RedemptionProduct_RedemptionCategory" ManuallyRouted="false" />
+        <AssociationConnector Association="LoyaltyDBV2_structModel.FK_RedemptionProductDetail_RedemptionProduct" ManuallyRouted="false" />
+        <AssociationConnector Association="LoyaltyDBV2_structModel.FK_Regions_Regions" ManuallyRouted="false" />
+        <AssociationConnector Association="LoyaltyDBV2_structModel.FK_Regions_RegionTypes" ManuallyRouted="false" />
+        <AssociationConnector Association="LoyaltyDBV2_structModel.FK_SecurityElement_SecurityPage" ManuallyRouted="false" />
+        <AssociationConnector Association="LoyaltyDBV2_structModel.FK_SecurityRoleAccess_SecurityElement" ManuallyRouted="false" />
+        <AssociationConnector Association="LoyaltyDBV2_structModel.FK_SecurityRoleAccess_SecurityRole" ManuallyRouted="false" />
+        <AssociationConnector Association="LoyaltyDBV2_structModel.FK_SecurityRoleEntity_SecurityRole" ManuallyRouted="false" />
+        <AssociationConnector Association="LoyaltyDBV2_structModel.FK_SecurityUserRole_SecurityRole" ManuallyRouted="false" />
+        <AssociationConnector Association="LoyaltyDBV2_structModel.FK_SecurityRoleEntity_SecurityUser" ManuallyRouted="false" />
+        <AssociationConnector Association="LoyaltyDBV2_structModel.FK_SecurityUserRole_SecurityUser" ManuallyRouted="false" />
+        <AssociationConnector Association="LoyaltyDBV2_structModel.FK_tblSecuritySessionLogin_SecurityUser" ManuallyRouted="false" />
+        <AssociationConnector Association="LoyaltyDBV2_structModel.FK_tblSR_SecurityUser" ManuallyRouted="false" />
+        <AssociationConnector Association="LoyaltyDBV2_structModel.FK_tblSR_SecurityUser1" ManuallyRouted="false" />
+        <AssociationConnector Association="LoyaltyDBV2_structModel.FK_tblSRAssignment_SecurityUser" ManuallyRouted="false" />
+        <AssociationConnector Association="LoyaltyDBV2_structModel.FK_UserProfile_SecurityUser" ManuallyRouted="false" />
+        <AssociationConnector Association="LoyaltyDBV2_structModel.FK_tblActivityQuerySchedule_tblActivityMaster" ManuallyRouted="false" />
+        <AssociationConnector Association="LoyaltyDBV2_structModel.FK_tblActivityTransaction_tblActivityMaster" ManuallyRouted="false" />
+        <AssociationConnector Association="LoyaltyDBV2_structModel.FK_tblPointBatchActvity_tblActivityMaster" ManuallyRouted="false" />
+        <AssociationConnector Association="LoyaltyDBV2_structModel.FK_tblAPIKeyRole_tblAPIKey" ManuallyRouted="false" />
+        <AssociationConnector Association="LoyaltyDBV2_structModel.FK_tblAPIKeyRole_tblAPIRole" ManuallyRouted="false" />
+        <AssociationConnector Association="LoyaltyDBV2_structModel.FK_tblCampaignAttachment_tblDirectCampaign" ManuallyRouted="false" />
+        <AssociationConnector Association="LoyaltyDBV2_structModel.FK_tblCorporateProductReward_tblRewardFundMaster" ManuallyRouted="false" />
+        <AssociationConnector Association="LoyaltyDBV2_structModel.FK_tblCorporateProductRewardDetail_tblCorporateProductReward" ManuallyRouted="false" />
+        <AssociationConnector Association="LoyaltyDBV2_structModel.FK_tblCorporateProductRewardExclude_tblCorporateProductReward" ManuallyRouted="false" />
+        <AssociationConnector Association="LoyaltyDBV2_structModel.FK_tblCorporateProductRewardPrice_tblCorporateProductReward" ManuallyRouted="false" />
+        <AssociationConnector Association="LoyaltyDBV2_structModel.FK_tblDirectCampaignRecipientMaster_tblDirectCampaign" ManuallyRouted="false" />
+        <AssociationConnector Association="LoyaltyDBV2_structModel.FK_tblDirectCampaignRun_tblDirectCampaign" ManuallyRouted="false" />
+        <AssociationConnector Association="LoyaltyDBV2_structModel.FK_tblDirectCampaignRecipient_tblDirectCampaignRun" ManuallyRouted="false" />
+        <AssociationConnector Association="LoyaltyDBV2_structModel.FK_tblDirectCampaignRecipient_tblMemberList" ManuallyRouted="false" />
+        <AssociationConnector Association="LoyaltyDBV2_structModel.FK_tblDirectCampaignRecipientMaster_tblMemberList" ManuallyRouted="false" />
+        <AssociationConnector Association="LoyaltyDBV2_structModel.FK_tblMemberHobbies_tblHobbies" ManuallyRouted="false" />
+        <AssociationConnector Association="LoyaltyDBV2_structModel.FK_tblMemberInterest_tblInterest" ManuallyRouted="false" />
+        <AssociationConnector Association="LoyaltyDBV2_structModel.FK_tblLanguageObject_tblLanguage" ManuallyRouted="false" />
+        <AssociationConnector Association="LoyaltyDBV2_structModel.FK_tblLanguageObject_tblLanguageField" ManuallyRouted="false" />
+        <AssociationConnector Association="LoyaltyDBV2_structModel.FK_tblSegmentBatch_tblMemberList" ManuallyRouted="false" />
+        <AssociationConnector Association="LoyaltyDBV2_structModel.FK_tblMemberPromo_tblRewardPromo" ManuallyRouted="false" />
+        <AssociationConnector Association="LoyaltyDBV2_structModel.FK_tblMemberPromoHistory_tblRewardPromo" ManuallyRouted="false" />
+        <AssociationConnector Association="LoyaltyDBV2_structModel.FK_tblPointBatchActvity_tblPointBatchProcess" ManuallyRouted="false" />
+        <AssociationConnector Association="LoyaltyDBV2_structModel.FK_tblPointBatchTransaction_tblPointBatchProcess" ManuallyRouted="false" />
+        <AssociationConnector Association="LoyaltyDBV2_structModel.FK_tblPointCurrencyValueRate_tblPointCurrencyValue" ManuallyRouted="false" />
+        <AssociationConnector Association="LoyaltyDBV2_structModel.FK_tblReportPage_tblReportLayout" ManuallyRouted="false" />
+        <AssociationConnector Association="LoyaltyDBV2_structModel.FK_tblReportPage_tblReportStandardCategory" ManuallyRouted="false" />
+        <AssociationConnector Association="LoyaltyDBV2_structModel.FK_tblRewardPromoMemberType_tblRewardPromo" ManuallyRouted="false" />
+        <AssociationConnector Association="LoyaltyDBV2_structModel.FK_tblSecurityPage_tblSecurityPage" ManuallyRouted="false" />
+        <AssociationConnector Association="LoyaltyDBV2_structModel.FK_tblSegmentData_tblSegmentBatch" ManuallyRouted="false" />
+        <AssociationConnector Association="LoyaltyDBV2_structModel.FK_tblSR_tblSRStatus" ManuallyRouted="false" />
+        <AssociationConnector Association="LoyaltyDBV2_structModel.FK_tblSR_tblSRType" ManuallyRouted="false" />
+        <AssociationConnector Association="LoyaltyDBV2_structModel.FK_tblSRAssignment_tblSR" ManuallyRouted="false" />
+        <AssociationConnector Association="LoyaltyDBV2_structModel.FK_tblSRAttachment_tblSR" ManuallyRouted="false" />
+        <AssociationConnector Association="LoyaltyDBV2_structModel.FK_tblSRCustomerResponse_tblSR" ManuallyRouted="false" />
+        <AssociationConnector Association="LoyaltyDBV2_structModel.FK_tblSRInternalRemarks_tblSR" ManuallyRouted="false" />
+        <AssociationConnector Association="LoyaltyDBV2_structModel.FK_tblUserProfilePwdHistory_UserProfile" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

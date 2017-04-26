@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.23107.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Weblite_Api_Trial", "Weblite_Api_Trial\Weblite_Api_Trial.csproj", "{4D7B5F2E-CE60-4380-929B-A5926CBD38AF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Weblite.Data", "Weblite.Data\Weblite.Data.csproj", "{F4D3DA87-FE49-4254-9FBF-01D680A8548B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4D7B5F2E-CE60-4380-929B-A5926CBD38AF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4D7B5F2E-CE60-4380-929B-A5926CBD38AF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4D7B5F2E-CE60-4380-929B-A5926CBD38AF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4D7B5F2E-CE60-4380-929B-A5926CBD38AF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F4D3DA87-FE49-4254-9FBF-01D680A8548B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F4D3DA87-FE49-4254-9FBF-01D680A8548B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F4D3DA87-FE49-4254-9FBF-01D680A8548B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F4D3DA87-FE49-4254-9FBF-01D680A8548B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
